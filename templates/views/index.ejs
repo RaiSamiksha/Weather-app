@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title><%= title %></title>  
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>Weather App</h1>
+            <img src="/css/weather-removebg-preview.png" alt="" srcset="">
+        </div>
+        <div class="right-side">
+            <article class="widget">
+                <form action="" class="weatherLocation">
+                    <input type="text" class="input-field" placeholder="Enter your city"/>
+                    <button class="search-button">Search</button>
+                </form>
+                <div class="icon-and-weatherInfo">
+                    <div class="weatherIcon">
+                        <i></i>
+                    </div>
+                    <div class="weatherInfo">
+                        <div class="temperature"><span></span></div>
+                        <div class="weatherCondition"></div>
+                        <div class="wind-speed"></div>       
+                        <div class="humidity"></div>  
+                    </div>
+                </div>
+                <div class="place"></div>
+                <div class="time"></div>
+                <div class="date"></div>
+            </article>
+        </div>
+    </div>
+
+    <script src="/javascript/app.js"></script>
+</body>
+</html>
